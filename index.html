@@ -479,77 +479,146 @@
     </section>
 
     <!-- Process Section -->
-    <section class="py-16 sm:py-20 lg:py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6">
-            <div class="text-center max-w-3xl mx-auto mb-16">
+    <section id="process" class="py-24 sm:py-32 bg-white relative overflow-hidden">
+        <!-- Background Decorative Elements -->
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-indigo-50/50 to-transparent -z-10"></div>
+        <div class="absolute bottom-0 left-0 w-1/3 h-full bg-gradient-to-r from-violet-50/50 to-transparent -z-10">
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
+            <div class="text-center max-w-3xl mx-auto mb-20">
                 <span
                     class="inline-block px-4 py-1.5 bg-indigo-50 text-indigo-600 text-sm font-semibold rounded-full mb-4">Our
-                    Process</span>
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-4">
-                    We Follow These <span class="gradient-text">Flawless Process!</span>
+                    Methodology</span>
+                <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-6">
+                    How We Deliver <span class="gradient-text">Exceptional Results</span>
                 </h2>
                 <p class="text-lg text-slate-500">
-                    Our proven methodology ensures consistent results for every project we undertake.
+                    A streamlined, data-driven approach designed to scale your brand with precision and creativity.
                 </p>
             </div>
 
-            <div class="relative">
-                <!-- Connection Line -->
-                <div
-                    class="hidden lg:block absolute top-1/2 left-0 right-0 h-1 process-line rounded-full -translate-y-1/2 opacity-20">
-                </div>
+            <!-- Infographic Container -->
+            <div class="relative mt-8">
+                <!-- SVG Connector (Desktop) -->
+                <svg class="hidden lg:block absolute top-1/2 left-0 w-full h-24 -translate-y-1/2 opacity-20"
+                    preserveAspectRatio="none" viewBox="0 0 1200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0 50C150 50 150 10 300 10C450 10 450 90 600 90C750 90 750 20 900 20C1050 20 1050 50 1200 50"
+                        stroke="url(#gradient-line)" stroke-width="4" stroke-dasharray="12 12" />
+                    <defs>
+                        <linearGradient id="gradient-line" x1="0" y1="0" x2="1200" y2="0"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#4F46E5" />
+                            <stop offset="0.5" stop-color="#7C3AED" />
+                            <stop offset="1" stop-color="#4F46E5" />
+                        </linearGradient>
+                    </defs>
+                </svg>
 
-                <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+                <div class="grid lg:grid-cols-3 gap-12 relative z-10">
                     <!-- Step 1 -->
-                    <div class="relative text-center group">
+                    <div class="group relative">
                         <div
-                            class="relative z-10 w-20 h-20 mx-auto bg-gradient-to-br from-indigo-600 to-violet-600 rounded-2xl flex items-center justify-center mb-6 glow group-hover:scale-110 transition-transform duration-300">
-                            <span class="text-3xl font-extrabold text-white">01</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Research Project</h3>
-                        <p class="text-slate-500">
-                            We research your market and audience to build data-backed strategies that work.
-                        </p>
-                        <div class="mt-6 flex justify-center gap-2">
-                            <span class="w-2 h-2 bg-indigo-600 rounded-full"></span>
-                            <span class="w-2 h-2 bg-indigo-200 rounded-full"></span>
-                            <span class="w-2 h-2 bg-indigo-200 rounded-full"></span>
+                            class="absolute -top-12 left-1/2 -translate-x-1/2 text-8xl font-black text-slate-100/50 select-none group-hover:text-indigo-100 transition-colors duration-500">
+                            01</div>
+                        <div
+                            class="bg-white/40 backdrop-blur-xl rounded-3xl p-8 border border-white/20 card-shadow hover:card-shadow-hover transition-all duration-500 hover:-translate-y-4 text-center">
+                            <div class="w-24 h-24 mx-auto mb-8 relative">
+                                <div
+                                    class="absolute inset-0 bg-indigo-600/20 rounded-full blur-2xl group-hover:bg-indigo-600/40 transition-all duration-500">
+                                </div>
+                                <div
+                                    class="relative w-full h-full bg-gradient-to-br from-indigo-600 to-indigo-700 rounded-2xl flex items-center justify-center shadow-lg transform group-hover:rotate-12 transition-transform duration-500">
+                                    <i data-lucide="search" class="w-10 h-10 text-white"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-slate-900 mb-4">Discovery & Research</h3>
+                            <p class="text-slate-500 leading-relaxed">
+                                We dive deep into your brand's DNA, market trends, and competitor landscape to find your
+                                unique edge.
+                            </p>
+                            <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-center gap-2">
+                                <span class="text-sm font-bold text-indigo-600 uppercase tracking-widest">Phase
+                                    One</span>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Step 2 -->
-                    <div class="relative text-center group">
+                    <div class="group relative lg:mt-16">
                         <div
-                            class="relative z-10 w-20 h-20 mx-auto bg-gradient-to-br from-violet-600 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 glow group-hover:scale-110 transition-transform duration-300">
-                            <span class="text-3xl font-extrabold text-white">02</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Evaluate Plans</h3>
-                        <p class="text-slate-500">
-                            Clear planning meets creative thinking—everything aligned to your business goals.
-                        </p>
-                        <div class="mt-6 flex justify-center gap-2">
-                            <span class="w-2 h-2 bg-indigo-200 rounded-full"></span>
-                            <span class="w-2 h-2 bg-indigo-600 rounded-full"></span>
-                            <span class="w-2 h-2 bg-indigo-200 rounded-full"></span>
+                            class="absolute -top-12 left-1/2 -translate-x-1/2 text-8xl font-black text-slate-100/50 select-none group-hover:text-violet-100 transition-colors duration-500">
+                            02</div>
+                        <div
+                            class="bg-white/40 backdrop-blur-xl rounded-3xl p-8 border border-white/20 card-shadow hover:card-shadow-hover transition-all duration-500 hover:-translate-y-4 text-center">
+                            <div class="w-24 h-24 mx-auto mb-8 relative">
+                                <div
+                                    class="absolute inset-0 bg-violet-600/20 rounded-full blur-2xl group-hover:bg-violet-600/40 transition-all duration-500">
+                                </div>
+                                <div
+                                    class="relative w-full h-full bg-gradient-to-br from-violet-600 to-violet-700 rounded-2xl flex items-center justify-center shadow-lg transform group-hover:-rotate-12 transition-transform duration-500">
+                                    <i data-lucide="layout" class="w-10 h-10 text-white"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-slate-900 mb-4">Strategy & Planning</h3>
+                            <p class="text-slate-500 leading-relaxed">
+                                Our experts craft a bespoke roadmap, aligning creative concepts with measurable business
+                                objectives.
+                            </p>
+                            <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-center gap-2">
+                                <span class="text-sm font-bold text-violet-600 uppercase tracking-widest">Phase
+                                    Two</span>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Step 3 -->
-                    <div class="relative text-center group">
+                    <div class="group relative">
                         <div
-                            class="relative z-10 w-20 h-20 mx-auto bg-gradient-to-br from-indigo-600 to-violet-600 rounded-2xl flex items-center justify-center mb-6 glow group-hover:scale-110 transition-transform duration-300">
-                            <span class="text-3xl font-extrabold text-white">03</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">Best Results</h3>
-                        <p class="text-slate-500">
-                            We launch, test, and refine—delivering results that grow with your brand.
-                        </p>
-                        <div class="mt-6 flex justify-center gap-2">
-                            <span class="w-2 h-2 bg-indigo-200 rounded-full"></span>
-                            <span class="w-2 h-2 bg-indigo-200 rounded-full"></span>
-                            <span class="w-2 h-2 bg-indigo-600 rounded-full"></span>
+                            class="absolute -top-12 left-1/2 -translate-x-1/2 text-8xl font-black text-slate-100/50 select-none group-hover:text-emerald-100 transition-colors duration-500">
+                            03</div>
+                        <div
+                            class="bg-white/40 backdrop-blur-xl rounded-3xl p-8 border border-white/20 card-shadow hover:card-shadow-hover transition-all duration-500 hover:-translate-y-4 text-center">
+                            <div class="w-24 h-24 mx-auto mb-8 relative">
+                                <div
+                                    class="absolute inset-0 bg-emerald-600/20 rounded-full blur-2xl group-hover:bg-emerald-600/40 transition-all duration-500">
+                                </div>
+                                <div
+                                    class="relative w-full h-full bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-lg transform group-hover:rotate-12 transition-transform duration-500">
+                                    <i data-lucide="rocket" class="w-10 h-10 text-white"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-slate-900 mb-4">Execution & Growth</h3>
+                            <p class="text-slate-500 leading-relaxed">
+                                We launch with impact, continuously optimizing campaigns for maximum engagement and ROI.
+                            </p>
+                            <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-center gap-2">
+                                <span class="text-sm font-bold text-emerald-600 uppercase tracking-widest">Final
+                                    Phase</span>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <!-- Trust Badge Section (Optional connector) -->
+            <div class="mt-32 text-center">
+                <div
+                    class="inline-flex items-center gap-4 px-6 py-3 bg-slate-900 text-white rounded-2xl shadow-xl transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex -space-x-3">
+                        <div
+                            class="w-8 h-8 rounded-full border-2 border-slate-900 bg-indigo-500 flex items-center justify-center text-[10px] font-bold">
+                            M</div>
+                        <div
+                            class="w-8 h-8 rounded-full border-2 border-slate-900 bg-violet-500 flex items-center justify-center text-[10px] font-bold">
+                            A</div>
+                        <div
+                            class="w-8 h-8 rounded-full border-2 border-slate-900 bg-emerald-500 flex items-center justify-center text-[10px] font-bold">
+                            S</div>
+                    </div>
+                    <p class="text-sm font-medium">Join 500+ brands growing with us</p>
+                    <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i>
                 </div>
             </div>
         </div>
