@@ -77,24 +77,23 @@
 
 <body class="bg-slate-50 text-slate-900 antialiased">
     <!-- Navigation -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-slate-100">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/80 backdrop-blur-lg border-b border-white/5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
-            <div class="flex items-center justify-between h-16">
+            <div class="flex items-center justify-between h-20">
                 <a href="#home" class="flex items-center gap-2">
-                    <img src="logo.png" alt="SocialEdge Logo" class="h-14 w-auto">
+                    <img src="logo.png" alt="SocialEdge Logo" class="h-12 w-auto brightness-110">
                 </a>
                 <div class="hidden md:flex items-center gap-8">
-                    <a href="#home" class="text-blue-600 font-medium transition-colors">Home</a>
+                    <a href="#home" class="text-blue-500 font-bold transition-colors">Home</a>
                     <a href="#services"
-                        class="text-slate-600 hover:text-blue-600 font-medium transition-colors">Services</a>
-                    <a href="#about" class="text-slate-600 hover:text-blue-600 font-medium transition-colors">About</a>
-                    <a href="#blog" class="text-slate-600 hover:text-blue-600 font-medium transition-colors">Blog</a>
-                    <a href="#contact"
-                        class="text-slate-600 hover:text-blue-600 font-medium transition-colors">Contact</a>
+                        class="text-white/60 hover:text-white font-medium transition-colors">Services</a>
+                    <a href="#about" class="text-white/60 hover:text-white font-medium transition-colors">About</a>
+                    <a href="#blog" class="text-white/60 hover:text-white font-medium transition-colors">Blog</a>
+                    <a href="#contact" class="text-white/60 hover:text-white font-medium transition-colors">Contact</a>
                 </div>
                 <div class="flex items-center gap-3">
                     <a href="#contact"
-                        class="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-blue-600 text-white font-semibold rounded-full btn-shadow hover:-translate-y-0.5 transition-all duration-200">
+                        class="inline-flex items-center gap-2 px-6 py-2.5 bg-white/5 hover:bg-white/10 text-white font-semibold rounded-full border border-white/10 transition-all duration-200">
                         Get A Quote
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
@@ -104,161 +103,128 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="relative pt-32 pb-16 sm:pt-40 sm:pb-20 lg:pb-28 overflow-hidden">
-        <!-- Background Blobs -->
-        <div
-            class="absolute top-20 left-1/4 w-96 h-96 bg-gradient-to-br from-blue-200 to-blue-200 rounded-full blur-3xl opacity-40 -z-10">
-        </div>
-        <div
-            class="absolute bottom-0 right-1/4 w-80 h-80 bg-gradient-to-br from-blue-200 to-blue-200 rounded-full blur-3xl opacity-30 -z-10">
-        </div>
+    <section id="home" class="relative min-h-screen bg-[#0a0a0a] pt-32 pb-16 overflow-hidden flex items-center">
+        <!-- Floating Decorative Elements -->
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-blue-600/10 to-transparent -z-0"></div>
+        <div class="absolute -top-24 -left-24 w-96 h-96 bg-blue-600/20 rounded-full blur-[120px]"></div>
 
-        <div class="max-w-7xl mx-auto px-4 sm:px-6">
-            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
-                <div class="text-center lg:text-left mb-12 lg:mb-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 w-full">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+                <div class="text-left mb-16 lg:mb-0 reveal-up">
                     <!-- Badge -->
-                    <div
-                        class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-50 to-blue-50 rounded-full border border-blue-100 mb-6">
-                        <span class="px-2 py-0.5 bg-blue-600 text-white text-xs font-bold rounded-full">SOCIAL
-                            EDGE</span>
-                        <span class="text-sm font-medium text-slate-700">Digital Marketing Experts</span>
-                        <i data-lucide="sparkles" class="w-4 h-4 text-blue-500"></i>
+                    <div class="inline-flex items-center mb-8">
+                        <span class="text-xs font-bold tracking-[0.2em] text-white/50 uppercase">SOCIAL EDGE</span>
                     </div>
 
-                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6">
-                        Best Agency <span class="gradient-text">In The Market!</span>
+                    <h1 class="text-5xl sm:text-6xl lg:text-8xl font-black text-white leading-[0.95] mb-8">
+                        Best Agency <br>
+                        In The <span class="text-blue-600">Market !</span>
                     </h1>
-                    <p class="text-lg sm:text-xl text-slate-500 leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8">
+
+                    <p class="text-lg text-white/60 leading-relaxed max-w-xl mb-12">
                         Social Edge Agency is a leading social media marketing agency specializing in social media
                         management, content creation, and targeted advertising to help brands grow online. We craft
-                        strategies that drive social media growth, targeted ads, and a powerful online presence with
-                        measurable results.
+                        strategies that drive growth and a powerful online presence.
                     </p>
 
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="#contact"
-                            class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-600 text-white font-semibold rounded-full btn-shadow hover:-translate-y-0.5 transition-all duration-200">
-                            <i data-lucide="calendar" class="w-5 h-5"></i>
-                            Book Meeting
-                        </a>
-                        <a href="tel:+8801622655780"
-                            class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-slate-700 font-semibold rounded-full border border-slate-200 hover:bg-slate-50 hover:border-slate-300 transition-all duration-200">
-                            <i data-lucide="phone" class="w-5 h-5 text-blue-600"></i>
-                            +880 1622655780
-                        </a>
-                    </div>
+                    <div class="flex items-center gap-8">
+                        <!-- Logo & Separator -->
+                        <div class="flex items-center gap-6">
+                            <div
+                                class="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-colors duration-300">
+                                <img src="logo.png" alt="SocialEdge" class="w-10 h-10 object-contain">
+                            </div>
+                            <div class="h-12 w-[1px] bg-white/20"></div>
+                        </div>
 
-                    <div
-                        class="mt-10 p-4 bg-white rounded-xl border border-slate-100 card-shadow inline-flex items-center gap-4">
-                        <div
-                            class="w-12 h-12 bg-gradient-to-br from-blue-100 to-blue-100 rounded-full flex items-center justify-center">
-                            <i data-lucide="headphones" class="w-6 h-6 text-blue-600"></i>
-                        </div>
-                        <div class="text-left">
-                            <p class="text-sm text-slate-500">For Further Inquiries Call</p>
-                            <p class="font-bold text-slate-900">+880 1622655780</p>
-                        </div>
+                        <!-- CTA Button -->
+                        <a href="#contact"
+                            class="group relative inline-flex items-center justify-center px-10 py-5 bg-blue-600 text-white font-bold rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(37,99,235,0.5)]">
+                            <span class="relative z-10">Book Meeting</span>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                        </a>
                     </div>
                 </div>
 
-                <!-- Isometric Card -->
-                <div class="relative flex justify-center lg:justify-end" style="perspective: 2000px;">
+                <!-- Hero Image & Contact Box -->
+                <div class="relative lg:-mr-24 reveal-right">
+                    <div class="relative z-0">
+                        <img src="person.png" alt="Professional Expert"
+                            class="w-full max-w-2xl mx-auto lg:ml-auto drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+
+                        <!-- Decorative Ring -->
+                        <div
+                            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] border border-white/5 rounded-full -z-10 animate-[spin_60s_linear_infinite]">
+                        </div>
+                    </div>
+
+                    <!-- Floating Inquiry Box -->
                     <div
-                        class="isometric-card bg-white rounded-2xl p-6 card-shadow border border-slate-100 w-full max-w-md transition-all duration-500 hover:card-shadow-hover">
-                        <div class="flex items-center justify-between mb-6">
-                            <div class="flex items-center gap-3">
-                                <div
-                                    class="w-10 h-10 bg-gradient-to-br from-blue-100 to-blue-100 rounded-xl flex items-center justify-center">
-                                    <i data-lucide="bar-chart-2" class="w-5 h-5 text-blue-600"></i>
-                                </div>
-                                <div>
-                                    <h4 class="font-semibold text-slate-900">Campaign Analytics</h4>
-                                    <p class="text-sm text-slate-500">Real-time metrics</p>
-                                </div>
-                            </div>
-                            <span
-                                class="px-3 py-1 bg-emerald-50 text-emerald-600 text-sm font-medium rounded-full">Live</span>
-                        </div>
-
-                        <div class="space-y-3">
-                            <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-sm font-medium text-slate-700">Social Reach</span>
-                                    <span
-                                        class="px-2 py-0.5 bg-blue-100 text-blue-600 text-xs font-medium rounded">Instagram</span>
-                                </div>
-                                <div class="w-full bg-slate-200 rounded-full h-2">
-                                    <div class="bg-gradient-to-r from-blue-600 to-blue-600 h-2 rounded-full"
-                                        style="width: 85%"></div>
-                                </div>
-                                <p class="text-xs text-slate-500 mt-1">2.4M impressions this month</p>
-                            </div>
-                            <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-sm font-medium text-slate-700">Ad Performance</span>
-                                    <span
-                                        class="px-2 py-0.5 bg-blue-100 text-blue-600 text-xs font-medium rounded">Facebook</span>
-                                </div>
-                                <div class="w-full bg-slate-200 rounded-full h-2">
-                                    <div class="bg-gradient-to-r from-blue-600 to-blue-600 h-2 rounded-full"
-                                        style="width: 72%"></div>
-                                </div>
-                                <p class="text-xs text-slate-500 mt-1">324% ROI increase</p>
-                            </div>
-                            <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-sm font-medium text-slate-700">Engagement Rate</span>
-                                    <span
-                                        class="px-2 py-0.5 bg-emerald-100 text-emerald-600 text-xs font-medium rounded">TikTok</span>
-                                </div>
-                                <div class="w-full bg-slate-200 rounded-full h-2">
-                                    <div class="bg-gradient-to-r from-blue-600 to-blue-600 h-2 rounded-full"
-                                        style="width: 94%"></div>
-                                </div>
-                                <p class="text-xs text-slate-500 mt-1">12.8% avg engagement</p>
-                            </div>
-                        </div>
-
-                        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-                            <div class="flex items-center gap-2">
-                                <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
-                                <span class="text-sm text-slate-500">Active campaigns: 12</span>
-                            </div>
-                            <button class="text-sm text-blue-600 font-semibold hover:text-blue-700">View all
-                                →</button>
-                        </div>
-                    </div>
-
-                    <!-- Floating Elements -->
-                    <div class="absolute -top-4 -left-4 p-4 bg-white rounded-xl card-shadow border border-slate-100 animate-pulse"
-                        style="animation-duration: 4s;">
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
-                                <i data-lucide="trending-up" class="w-5 h-5 text-emerald-600"></i>
-                            </div>
+                        class="absolute -bottom-8 right-0 lg:-right-8 bg-blue-600 p-8 rounded-[32px] shadow-2xl max-w-sm w-full transition-transform duration-500 hover:-translate-y-2 hover:shadow-blue-600/30 group">
+                        <div class="flex items-center justify-between gap-6">
                             <div>
-                                <p class="text-sm text-slate-500">Growth Rate</p>
-                                <p class="font-bold text-slate-900">+156% <span
-                                        class="text-emerald-500 text-sm font-medium">↑</span></p>
+                                <p class="text-[10px] font-bold text-white/80 uppercase tracking-widest mb-2">FOR
+                                    FURTHER INQUIRIES CALL :</p>
+                                <p class="text-2xl font-black text-white leading-none">+880 1622655780</p>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="absolute -bottom-4 -right-4 p-4 bg-white rounded-xl card-shadow border border-slate-100 animate-pulse"
-                        style="animation-duration: 4s; animation-delay: 2s;">
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center glow">
-                                <i data-lucide="users" class="w-5 h-5 text-blue-600"></i>
-                            </div>
-                            <div>
-                                <p class="text-sm text-slate-500">Happy Clients</p>
-                                <p class="font-bold text-slate-900">500+</p>
+                            <div
+                                class="w-16 h-16 flex-shrink-0 group-hover:rotate-12 transition-transform duration-300">
+                                <img src="phone-icon.png" alt="Call Us" class="w-full h-full object-contain">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- Entry Animations Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.reveal-up, .reveal-right').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+
+    <style>
+        .reveal-up {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .reveal-up.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-right {
+            opacity: 0;
+            transform: translateX(50px);
+            transition: all 1s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .reveal-right.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    </style>
+
     </section>
 
     <!-- About Section -->
